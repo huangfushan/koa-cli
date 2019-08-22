@@ -1,0 +1,34 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "rimraf -rf build/ && tsc",
+    "dev": "NODE_ENV=development nodemon build/scripts/dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-generic-session": "^2.0.1",
+    "koa-redis": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^1.6.5",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^5.15.2",
+    "sequelize-typescript": "^1.0.0-alpha.9"
+  },
+  "devDependencies": {
+    "@types/koa-generic-session": "^1.0.2",
+    "@types/koa-redis": "^3.0.2",
+    "@types/koa-router": "^7.0.42",
+    "@types/mysql": "^2.15.7",
+    "@types/node": "^12.7.2",
+    "koa-logger": "^3.2.1",
+    "nodemon": "^1.19.1",
+    "rimraf": "^3.0.0"
+  }
+}
